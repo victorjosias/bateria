@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #teste {
+            background-color: aliceblue;
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+            text-align: center;
+            text-decoration: solid;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="teste">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi a rerum vel. Officia, distinctio accusamus alias magnam praesentium inventore voluptates facilis, consequuntur dolor error quam ut cum similique? Fugiat, voluptate!
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, asperiores dolorem ipsa expedita molestiae quae illum ut id. Quisquam quasi eos libero adipisci repellendus harum totam numquam eum reiciendis omnis!
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laborum molestias nisi aspernatur adipisci esse provident, nesciunt dolore perferendis suscipit, rerum voluptates consequatur omnis. Aspernatur at quidem maiores deleniti odio.
+    </div>
+    
+    <script>
+        
+        document.getElementById('teste').addEventListener('mouseenter', ()=> {
+            alert('voce entrou')
+            
+        })
+        
+        document.getElementById('teste').addEventListener('mouseout', ()=> {
+            alert('voce saiu')
+        })
+    </script>
+</body>
+</html>
